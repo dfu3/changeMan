@@ -2,7 +2,7 @@ import os
 import MySQLdb
 
 #update IP here
-depIP = '10.200.172.51'
+depIP = '10.200.172.28'
 
 with open('currVers.txt', 'r+') as f:
 	vers = f.read()
